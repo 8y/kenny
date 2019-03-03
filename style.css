@@ -122,18 +122,14 @@ a:hover:after {
 
 .span-row-2{grid-row: span 2 / auto;}
 
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 425px) {
-    .span-row-3{grid-row: span 1 / auto;}
-    .logo img{width: 80%;}
-}
 @media screen and (max-width: 526px) and (min-width: 425px) {
     .span-row-3{grid-row: span 2 / auto;}
     .logo img{width: 50%; margin-bottom: 0px;}
     .footer{font-size: 2.5vh;}
 }
-@media only screen and (orientation: portrait) and (max-width: 414px) {
-.logo img{margin-bottom: 60%;}
+@media only screen and (orientation: portrait) and (max-width: 500px) {
+.span-row-3{grid-row: span 1 / auto;}
+.logo img{margin-bottom: 70%;}
   }
 
 @keyframes fadein {
