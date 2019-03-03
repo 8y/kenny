@@ -129,7 +129,7 @@ a:hover:after {
 }
 @media only screen and (orientation: portrait) and (max-width: 500px) {
 .span-row-3{grid-row: span 1 / auto;}
-.logo img{margin-bottom: 70%; width: 80%;}
+.logo img{margin-bottom: 50%; width: 80%;}
   }
 
 @keyframes fadein {
