@@ -124,7 +124,7 @@ a:hover:after {
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 425px) {
-    .span-row-3{grid-row: span 5 / auto;}
+    .span-row-3{grid-row: span 10 / auto;}
     .logo img{width: 80%;}
 }
 @media screen and (max-width: 526px and min-width: 425px) {
