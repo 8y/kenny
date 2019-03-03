@@ -122,14 +122,14 @@ a:hover:after {
 
 .span-row-2{grid-row: span 2 / auto;}
 
-@media screen and (max-width: 526px) and (min-width: 425px) {
+@media screen and (max-width: 526px) and (min-width: 500px) {
     .span-row-3{grid-row: span 2 / auto;}
     .logo img{width: 50%; margin-bottom: 0px;}
     .footer{font-size: 2.5vh;}
 }
 @media only screen and (orientation: portrait) and (max-width: 500px) {
 .span-row-3{grid-row: span 1 / auto;}
-.logo img{margin-bottom: 70%;}
+.logo img{margin-bottom: 70%; width: 80%;}
   }
 
 @keyframes fadein {
