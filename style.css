@@ -64,7 +64,7 @@
 			text-align: center;
 			width: 100%;
 		}
-		.logo svg {
+		.logo img {
 			width: 150px;
 			height: 150px;
 		}
@@ -107,7 +107,7 @@
 		    height: 8px;
 		    display: inline-block;
 		    border-radius: 100%;
-		    background: #50e3c2;
+		    background: #512483;
 		    margin-left: 10px;
 		}
 		.chat a {
